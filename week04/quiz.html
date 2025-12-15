@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="col-lg-8">
+          <label for="exampleInputEmail1" class="form-text">สาขา/คณะ</label>
+          <span class="text-danger">*</span>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>เลือก...</option>
+            <option value="1">สาขาเก</option>
+            <option value="2">สาขาตุ้ด</option>
+            <option value="3">สาขากระเทย</option>
+          </select>
+        </div>
+        <div class="row">
+          <div class="row">
+            <div class="col-lg-3">
+              <label for="exampleInputEmail1" class="form-text">สัญชาติ</label>
+              <span class="text-danger">*</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>เลือก...</option>
+                <option value="1">ไทย</option>
+                <option value="2">ไทกัว</option>
+                <option value="3">เจ็ก</option>
+              </select>
+            </div>
+            <div class="col-lg-3">
+              <label for="exampleInputEmail1" class="form-text">เพศ</label>
+              <span class="text-danger">*</span>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>เลือก...</option>
+                <option value="1">ชาย</option>
+                <option value="2">หญิง</option>
+                <option value="3">กระทะ</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row">
+            <div class="col-lg-2">
+              <label for="exampleInputEmail1" class="form-text"
+                >คำนำหน้าชื่อ</label
+              >
+              <span class="text-danger">*</span>
+              <span class="text-danger">(ชื่อเต็ม)</span>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-lg-2">
+              <label for="exampleInputEmail1" class="form-text">ชื่อ</label>
+              <span class="text-danger">*</span>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-lg-2">
+              <label for="exampleInputEmail1" class="form-text">นามสกุล</label>
+              <span class="text-danger">*</span>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-lg-2">
+              <label for="exampleInputEmail1" class="form-text"
+                >บัตรประชาชน</label
+              >
+              <span class="text-danger">*</span>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-lg-2">
+              <label for="exampleInputEmail1" class="form-text"
+                >เบอร์โทรศัพท์</label
+              >
+              <span class="text-danger">*</span>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <label for="exampleInputEmail1" class="form-text"
+              >ID LINE (ถ้ามี)</label
+            >
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-lg-2">
+            <label for="exampleInputEmail1" class="form-text"
+              >FACEBOOK (ถ้ามี)</label
+            >
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-lg-2">
+            <label for="exampleInputEmail1" class="form-text">อีเมล</label>
+            <input type="text" class="form-control" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <label for="exampleInputEmail1" class="form-text"
+              >วุฒการศึกษา</label
+            >
+            <span class="text-danger">*</span>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>เลือก...</option>
+              <option value="1">วุฒไทย</option>
+              <option value="2">วุฒไทกัว</option>
+              <option value="3">วุฒเจ็ก</option>
+            </select>
+          </div>
+          <div class="col-lg-6">
+            <label for="exampleInputEmail1" class="form-text"
+              >ชื่อสถานที่ศึกษาเดิม</label
+            >
+            <span class="text-danger">*</span>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-lg-3">
+            <label for="exampleInputEmail1" class="form-text">จังหวัด</label>
+            <span class="text-danger">*</span>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>เลือก...</option>
+              <option value="1">ปทุมธานี</option>
+              <option value="2">ทองสุก</option>
+              <option value="3">ทองดิบ</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <label for="exampleInputEmail1" class="form-text"
+              >สาขาวิชาที่เรียนจบ</label
+            >
+            <span class="text-danger">*</span>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-lg-2">
+            <label for="exampleInputEmail1" class="form-text"
+              >ผลการเรียนเฉลี่ย (GPAX)</label
+            >
+            <span class="text-danger">*</span>
+            <input type="text" class="form-control" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <label for="exampleInputEmail1" class="form-text"
+              >มีความต้องการกู้ยืมเพื่อการศึกษา</label
+            >
+            <span class="text-danger">*</span>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>เลือก...</option>
+              <option value="1">ใช่</option>
+              <option value="2">บ่</option>
+              <option value="3">แซ่บหลาย</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="mb-3">
+              <label for="formFile" class="form-label">เอกสารแบบ</label>
+              <span class="text-danger">(แฟ้มสะสมงาน)</span>
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="row row-cols-lg-auto g-3 align-items-center justify-content-center"
+        >
+          <div class="col-lg-3">
+            <button type="button" class="btn btn-success">ยืนยัน</button>
+            <button type="button" class="btn btn-danger">ยกเลิก</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
