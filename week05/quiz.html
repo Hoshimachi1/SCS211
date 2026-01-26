@@ -141,14 +141,99 @@
           <div class="col-lg-6">ฟรีค่าจัดส่ง</div>
         </div>
         <div class="row">
-          <div class="col-lg-6">฿</div>
           <div class="col-lg-6">
-            <button type="button" class="btn btn-link">ชื่อร้านค้า</button>
+            <button
+              type="button"
+              class="btn btn-link"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              ชื่อร้านค้า
+            </button>
+
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      ไอ้ลาว
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">น้อง พี่อยากถาม</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      ไป
+                    </button>
+                    <button type="button" class="btn btn-primary">แตก</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 class="display-6">฿ 100</h1>
+        </div>
+        <div class="row">
+          <div class="input-group mb-3">
+            <div class="input-group mb-3">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon1"
+              >
+                Button
+              </button>
+              <input
+                type="text"
+                class="form-control"
+                placeholder=""
+                aria-label="Example text with button addon"
+                aria-describedby="button-addon1"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+              >
+                Button
+              </button>
+            </div>
+            ribedby="button-addon1" />
           </div>
         </div>
       </div>
       <div class="col-lg-6">
-       
+        <div class="input-group mb-3">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon1"
+          >
+            Button
+          </button>
+          <input
+            type="text"
+            class="form-control"
+            placeholder=""
+            aria-label="Example text with button addon"
+            aria-describedby="button-addon1"
+          />
+        </div>
       </div>
     </div>
     <div class="row">
